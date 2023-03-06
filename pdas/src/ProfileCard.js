@@ -1,7 +1,7 @@
-function ProfileCard(props) {
-    const { title, user } = props;
+function ProfileCard({ title, user, image }) {
     return (
         <div>
+            <img src={image} alt="" />
             <div>ProfileCard !!! + {title} +" " + {user} </div>
         </div>
     );
