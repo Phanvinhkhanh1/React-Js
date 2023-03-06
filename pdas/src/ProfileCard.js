@@ -1,7 +1,8 @@
 function ProfileCard(props) {
+    const { title, user } = props;
     return (
         <div>
-            <div>ProfileCard !!! + {props.title} +" " + {props.user} </div>
+            <div>ProfileCard !!! + {title} +" " + {user} </div>
         </div>
     );
 }
